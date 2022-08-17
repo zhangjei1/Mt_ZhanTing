@@ -102,6 +102,7 @@ class CameraEvents {
       },
     };
     this.domToScene();
+    
   }
 
   // 转2d ui
@@ -115,6 +116,7 @@ class CameraEvents {
       sprite.visible = false;
       this.camerMap[i][`sprite`] = sprite;
       model.add(sprite);
+      console.log("this.camerMap",this.camerMap);
     });
   }
 
